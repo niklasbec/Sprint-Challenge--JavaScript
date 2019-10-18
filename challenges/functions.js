@@ -42,6 +42,9 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation: 
 
+//Because the functions is created inside another function, this what we call a closure.
+//Since the nestedFuction is inside the myFunction, the nestedFunction gets access to the lexical environment of myFunction.
+
 
 const external = "I'm outside the function";
 
